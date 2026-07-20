@@ -1,0 +1,107 @@
+[
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$s1WLPruNxC1EgMDTCesqZk$jsS7Z/DG7OVx5RHSaeXFKk6GiGBFtHpnIGZwxqTCn/8=",
+    "last_login": "2026-06-09T04:21:04.930Z",
+    "is_superuser": true,
+    "username": "ansari",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-06-09T04:18:52.906Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$IQf3bBJIiTWniS9XtXLqsi$wxzfjt1ZRiJVapCiRxrbnja4UCDAEhtr0szw3D9b0iU=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "brian",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-06-09T05:11:36.022Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "67jkn1zb8d4yd0fs3vq4seodojjl6kqd",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAQAP9lz6aBdvuAo3e_gWzbXUFNm1A4Gf_dkHDQ68xk3jDRvs3T3nidlgwj9HD5ZZHSk8sh8oPKvapUy7YuUR2JOm1Tt5r5dT3bv8FMbYYRBu0CdcZE5OydaCucerTovBZvYvAsMXnXSxg6423oLKFo0iiIxDrD5wvQEDeB:1wWnxY:-1m3l1Zisq0duupXAdiwZa4lpbhVrZVYuKf9uGWQJpM",
+    "expire_date": "2026-06-23T04:21:04.940Z"
+  }
+},
+{
+  "model": "blog_posts.category",
+  "pk": 1,
+  "fields": {
+    "name": "Tech",
+    "slug": "tech",
+    "created_at": "2026-06-09T05:02:00.050Z"
+  }
+},
+{
+  "model": "blog_posts.category",
+  "pk": 3,
+  "fields": {
+    "name": "politics",
+    "slug": "politics",
+    "created_at": "2026-06-09T05:03:26.563Z"
+  }
+},
+{
+  "model": "blog_posts.category",
+  "pk": 4,
+  "fields": {
+    "name": "sports",
+    "slug": "sports",
+    "created_at": "2026-06-09T05:05:24.983Z"
+  }
+},
+{
+  "model": "blog_posts.category",
+  "pk": 5,
+  "fields": {
+    "name": "business",
+    "slug": "business",
+    "created_at": "2026-06-09T05:05:42.389Z"
+  }
+},
+{
+  "model": "blog_posts.category",
+  "pk": 6,
+  "fields": {
+    "name": "nature",
+    "slug": "nature",
+    "created_at": "2026-06-09T05:06:33.362Z"
+  }
+},
+{
+  "model": "blog_posts.post",
+  "pk": 1,
+  "fields": {
+    "title": "Python Basics",
+    "slug": "python-basics",
+    "content": "A deep dive into the fundamentals",
+    "status": "published",
+    "views": 3,
+    "owner": [
+      "ansari"
+    ],
+    "category": 1,
+    "created_at": "2026-06-09T05:08:42.478Z",
+    "updated_at": "2026-06-09T05:19:33.773Z",
+    "tags": []
+  }
+}
+]
