@@ -25,3 +25,5 @@ staticfiles/
 
 # macOS
 .DS_Store
+
+datadump.json
